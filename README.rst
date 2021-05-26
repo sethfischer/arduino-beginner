@@ -7,6 +7,7 @@ DFRobot Beginner Kit for Arduino - PlatformIO
 For use with the official `DFRobot tutorials`_:
 
 1. Blinking a LED
+2. SOS beacon
 
 
 .. _`DFRobot Beginner Kit for Arduino`: https://github.com/DFRobot/Beginner-Kit-for-Arduino
