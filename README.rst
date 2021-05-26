@@ -6,6 +6,8 @@ DFRobot Beginner Kit for Arduino - PlatformIO
 
 For use with the official `DFRobot tutorials`_:
 
+1. Blinking a LED
+
 
 .. _`DFRobot Beginner Kit for Arduino`: https://github.com/DFRobot/Beginner-Kit-for-Arduino
 .. _`PlatformIO`: https://platformio.org/
