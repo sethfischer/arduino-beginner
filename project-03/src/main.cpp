@@ -21,22 +21,6 @@ int button = 9; // button pin
 int crossTime = 5000;     // time allowed to cross
 unsigned long changeTime; // time since button pressed
 
-void setup() {
-  // declare LED pins as outputs
-  pinMode(carRed, OUTPUT);
-  pinMode(carYellow, OUTPUT);
-  pinMode(carGreen, OUTPUT);
-  pinMode(pedRed, OUTPUT);
-  pinMode(pedGreen, OUTPUT);
-
-  // declare button pin as input
-  pinMode(button, INPUT);
-
-  // set initial state of lights
-  digitalWrite(carGreen, HIGH);
-  digitalWrite(pedRed, HIGH);
-}
-
 /**
  * Control lights
  */
@@ -71,6 +55,22 @@ void changeLights() {
   digitalWrite(carYellow, LOW); // car yellow off
 
   changeTime = millis(); // record time since last change of lights
+}
+
+void setup() {
+  // declare LED pins as outputs
+  pinMode(carRed, OUTPUT);
+  pinMode(carYellow, OUTPUT);
+  pinMode(carGreen, OUTPUT);
+  pinMode(pedRed, OUTPUT);
+  pinMode(pedGreen, OUTPUT);
+
+  // declare button pin as input
+  pinMode(button, INPUT);
+
+  // set initial state of lights
+  digitalWrite(carGreen, HIGH);
+  digitalWrite(pedRed, HIGH);
 }
 
 void loop() {
