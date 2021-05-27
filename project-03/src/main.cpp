@@ -7,34 +7,47 @@
 
 #include <Arduino.h>
 
-int carRed = 12; // assign the car lights
+// assign car light pins
+int carRed = 12;
 int carYellow = 11;
 int carGreen = 10;
-int pedRed = 8; // assign the pedestrian lights
+
+// assign pedestrian light pins
+int pedRed = 8;
 int pedGreen = 7;
-int button = 9;           // button pin
+
+int button = 9; // button pin
+
 int crossTime = 5000;     // time allowed to cross
 unsigned long changeTime; // time since button pressed
 
 void setup() {
+  // declare LED pins as outputs
   pinMode(carRed, OUTPUT);
   pinMode(carYellow, OUTPUT);
   pinMode(carGreen, OUTPUT);
   pinMode(pedRed, OUTPUT);
   pinMode(pedGreen, OUTPUT);
-  pinMode(button, INPUT);       // button on pin 2
-  digitalWrite(carGreen, HIGH); // turn on the green light
+
+  // declare button pin as input
+  pinMode(button, INPUT);
+
+  // set initial state of lights
+  digitalWrite(carGreen, HIGH);
   digitalWrite(pedRed, HIGH);
 }
 
+/**
+ * Control lights
+ */
 void changeLights() {
-  digitalWrite(carGreen, LOW);   // green off
-  digitalWrite(carYellow, HIGH); // yellow on
-  delay(2000);                   // wait 2 seconds
+  digitalWrite(carGreen, LOW);   // car green off
+  digitalWrite(carYellow, HIGH); // car yellow on
+  delay(2000);                   // wait 2s
 
-  digitalWrite(carYellow, LOW); // yellow off
-  digitalWrite(carRed, HIGH);   // red on
-  delay(1000);                  // wait 1 second till its safe
+  digitalWrite(carYellow, LOW); // car yellow off
+  digitalWrite(carRed, HIGH);   // car red on
+  delay(1000);                  // wait 1s until it's safe
 
   digitalWrite(pedRed, LOW);    // pedestrian red off
   digitalWrite(pedGreen, HIGH); // pedestrian green on
@@ -48,23 +61,23 @@ void changeLights() {
     delay(250);
   }
 
-  digitalWrite(pedRed, HIGH); // turn pedestrian red on
+  digitalWrite(pedRed, HIGH); // pedestrian red on
   delay(500);
 
-  digitalWrite(carYellow, HIGH); // yellow on
-  digitalWrite(carRed, LOW);     // red off
+  digitalWrite(carYellow, HIGH); // car yellow on
+  digitalWrite(carRed, LOW);     // car red off
   delay(1000);
-  digitalWrite(carGreen, HIGH);
-  digitalWrite(carYellow, LOW); // yellow off
+  digitalWrite(carGreen, HIGH); // car green on
+  digitalWrite(carYellow, LOW); // car yellow off
 
-  changeTime = millis(); // record the time since last change of lights
-  // then return to the main program loop
+  changeTime = millis(); // record time since last change of lights
 }
 
 void loop() {
   int state = digitalRead(button);
-  // check if button is pressed and it is over 5 seconds since last button press
+  // if button is pressed and it is over 5s since last button press
+  // then change lights
   if (state == HIGH && (millis() - changeTime) > 5000) {
-    changeLights(); // call the function to change the lights
+    changeLights();
   }
 }

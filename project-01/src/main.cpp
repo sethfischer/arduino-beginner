@@ -8,20 +8,15 @@
 
 #include <Arduino.h>
 
-// Pin 10 has an LED connected on most Arduino boards.
-// give it a name:
-int ledPin = 10;
+int ledPin = 10; // pin the LED is attached to
 
-// the setup routine runs once when you press reset:
 void setup() {
-  // initialize the digital pin as an output.
-  pinMode(ledPin, OUTPUT);
+  pinMode(ledPin, OUTPUT); // declare LED pin to be an output
 }
 
-// the loop routine runs over and over again forever:
 void loop() {
-  digitalWrite(ledPin, HIGH); // turn the LED on (HIGH is the voltage level)
-  delay(1000);                // wait for a second
-  digitalWrite(ledPin, LOW);  // turn the LED off by making the voltage LOW
-  delay(1000);                // wait for a second
+  digitalWrite(ledPin, HIGH); // turn LED on by setting the pin HIGH
+  delay(1000);                // wait for one second
+  digitalWrite(ledPin, LOW);  // turn LED off by setting the pin LOW
+  delay(1000);                // wait for one second
 }
