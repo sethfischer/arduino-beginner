@@ -13,6 +13,7 @@ For use with the official `DFRobot tutorials`_:
 2. SOS beacon
 3. Interactive traffic lights
 4. Fading light
+5. RGB LED
 
 
 .. _`PlatformIO`: https://platformio.org/
