@@ -2,6 +2,9 @@
 Beginning Arduino with PlatformIO
 =================================
 
+|build-status|
+
+
 Beginner's Arduino projects for the `PlatformIO`_ IDE.
 
 For use with the official `DFRobot tutorials`_:
@@ -14,3 +17,7 @@ For use with the official `DFRobot tutorials`_:
 
 .. _`PlatformIO`: https://platformio.org/
 .. _`DFRobot tutorials`: https://raw.githubusercontent.com/DFRobot/Beginner-Kit-for-Arduino/master/Beginner%20Kit%20for%20Arduino%20Tutorial.pdf
+
+.. |build-status| image:: https://github.com/sethfischer/arduino-beginner/actions/workflows/build.yml/badge.svg
+    :target: https://github.com/sethfischer/arduino-beginner/actions/workflows/build.yml
+    :alt: Build status
