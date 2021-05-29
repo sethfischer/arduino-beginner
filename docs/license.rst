@@ -8,6 +8,8 @@ under `CC BY-SA 4.0`_.
 
 *Arduino* is a trademark of Arduino S.r.l.
 
+*PlatformIO* is a trademark of PlatformIO Labs OÜ.
+
 
 .. _`Beginning Arduino with PlatformIO`: https://github.com/sethfischer/arduino-beginner
 .. _`Seth Fischer`: https://github.com/sethfischer/
