@@ -16,8 +16,16 @@ For use with the official `DFRobot tutorials`_:
 5. RGB LED
 
 
+License
+-------
+
+`Beginning Arduino with PlatformIO`_ is licensed under `CC BY-SA 4.0`_.
+
+
 .. _`PlatformIO`: https://platformio.org/
 .. _`DFRobot tutorials`: https://raw.githubusercontent.com/DFRobot/Beginner-Kit-for-Arduino/master/Beginner%20Kit%20for%20Arduino%20Tutorial.pdf
+.. _`Beginning Arduino with PlatformIO`: https://github.com/sethfischer/arduino-beginner
+.. _`CC BY-SA 4.0`: https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1
 
 
 .. |docs-status| image:: https://readthedocs.org/projects/arduino-pio/badge/?version=latest
