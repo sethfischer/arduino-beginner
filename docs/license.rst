@@ -6,6 +6,10 @@ License
 `Beginning Arduino with PlatformIO`_ © 2021 by `Seth Fischer`_ is licensed
 under `CC BY-SA 4.0`_.
 
+
+Trademarks
+----------
+
 *Arduino* is a trademark of Arduino S.r.l.
 
 *PlatformIO* is a trademark of PlatformIO Labs OÜ.
