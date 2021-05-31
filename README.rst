@@ -7,6 +7,9 @@ Beginning Arduino with PlatformIO
 
 Beginner's Arduino projects for the `PlatformIO`_ IDE.
 
+.. image:: docs/_static/images/boards/arduino-uno.svg
+    :alt: Arduino Uno board
+
 For use with the official `DFRobot tutorials`_:
 
 1. Blinking a LED
