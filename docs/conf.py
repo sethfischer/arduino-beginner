@@ -13,7 +13,7 @@ extensions = [
 
 templates_path = ["_templates"]
 
-exclude_patterns = ["_build"]
+exclude_patterns = ["_build", ".venv"]
 
 
 html_theme = "sphinx_rtd_theme"
