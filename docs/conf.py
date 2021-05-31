@@ -9,6 +9,7 @@ release = "0.1.0"
 
 extensions = [
     "sphinx_rtd_theme",
+    "sphinxcontrib.rsvgconverter",
 ]
 
 templates_path = ["_templates"]
