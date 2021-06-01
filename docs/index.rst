@@ -6,4 +6,5 @@ Beginning Arduino with PlatformIO
     :maxdepth: 2
     :caption: Contents:
 
+    parts
     license
