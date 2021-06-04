@@ -10,6 +10,10 @@ BUILDDIR      = _build
 help:
 	@$(SPHINXBUILD) -M help "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 
+.PHONY: latex-logo
+latex-logo:
+	rsvg-convert --format=pdf --output=latex-logo.pdf _static/images/boards/arduino-uno.svg
+
 # Catch-all target: route all unknown targets to Sphinx
 # $(O) is a shortcut for $(SPHINXOPTS)
 .PHONY: Makefile

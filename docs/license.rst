@@ -15,6 +15,12 @@ Trademarks
 *PlatformIO* is a trademark of PlatformIO Labs OÜ.
 
 
+Acknowledgements
+----------------
+
+Cover image: Adaptded from PhilippHenkel, CC BY-SA 4.0, via Wikimedia Commons.
+
+
 .. _`Beginning Arduino with PlatformIO`: https://github.com/sethfischer/arduino-beginner
 .. _`Seth Fischer`: https://github.com/sethfischer/
 .. _`CC BY-SA 4.0`: https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1
