@@ -2,6 +2,10 @@
 Parts
 =====
 
+#.  Computer
+
+    .. image:: _static/images/parts/laptop.*
+        :alt: Computer
 
 #.  Arduino Uno
 
