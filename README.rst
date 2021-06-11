@@ -34,8 +34,8 @@ License
 .. |docs-status| image:: https://readthedocs.org/projects/arduino-pio/badge/?version=latest
     :target: https://arduino-pio.readthedocs.io/en/latest/?badge=latest
     :alt: Documentation Status
-.. |build-status| image:: https://github.com/sethfischer/arduino-beginner/actions/workflows/build.yml/badge.svg
-    :target: https://github.com/sethfischer/arduino-beginner/actions/workflows/build.yml
+.. |build-status| image:: https://github.com/sethfischer/arduino-pio/actions/workflows/build.yml/badge.svg
+    :target: https://github.com/sethfischer/arduino-pio/actions/workflows/build.yml
     :alt: Build status
 .. |lint-status| image:: https://github.com/sethfischer/arduino-pio/actions/workflows/lint.yml/badge.svg
     :target: https://github.com/sethfischer/arduino-pio/actions/workflows/lint.yml
