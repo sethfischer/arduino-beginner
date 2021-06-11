@@ -2,7 +2,7 @@
 Beginning Arduino with PlatformIO
 =================================
 
-|docs-status| |build-status|
+|docs-status| |build-status| |lint-status|
 
 
 Beginner's Arduino projects for the `PlatformIO`_ IDE.
@@ -37,3 +37,6 @@ License
 .. |build-status| image:: https://github.com/sethfischer/arduino-beginner/actions/workflows/build.yml/badge.svg
     :target: https://github.com/sethfischer/arduino-beginner/actions/workflows/build.yml
     :alt: Build status
+.. |lint-status| image:: https://github.com/sethfischer/arduino-pio/actions/workflows/lint.yml/badge.svg
+    :target: https://github.com/sethfischer/arduino-pio/actions/workflows/lint.yml
+    :alt: Lint status
