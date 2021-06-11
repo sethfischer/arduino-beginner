@@ -13,3 +13,8 @@ jobs:
         run: |
           sudo apt-get -y install clang-format
           make lint-c
+
+      - name: Lint SVG files
+        run: |
+          sudo apt-get -y install scour
+          make lint-svg
