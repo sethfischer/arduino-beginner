@@ -19,18 +19,23 @@ jobs:
     env:
       POETRY_VIRTUALENVS_CREATE: false
     steps:
-      - uses: actions/checkout@v2
+      - name: Checkout
+        uses: actions/checkout@v2
+
       - name: Set up Python ${{ matrix.python-version }}
         uses: actions/setup-python@v2
         with:
           python-version: ${{ matrix.python-version }}
+
       - name: Install Poetry
         run: |
           curl -fsS -o get-poetry.py https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py
           python get-poetry.py -y
           echo "$HOME/.poetry/bin" >> $GITHUB_PATH
+
       - name: Install dependencies
         run: poetry install --no-interaction
+
       - name: Build projects
         run: |
           poetry run platformio run -d ${{ matrix.projects }}
