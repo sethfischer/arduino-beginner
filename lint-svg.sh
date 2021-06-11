@@ -4,6 +4,8 @@ shopt -s globstar
 
 exit_code=0
 
+directory="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
 while IFS= read -r -d $'\0' filename; do
     if [ -f "$filename" ]; then
         echo "Check formatting of ${filename}"
@@ -16,6 +18,6 @@ while IFS= read -r -d $'\0' filename; do
             echo "Pass"
         fi
     fi
-done < <(git ls-files -z -- "./**.svg")
+done < <(git ls-files -z -- "${directory}/**.svg")
 
 exit $exit_code
