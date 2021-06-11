@@ -12,4 +12,4 @@ jobs:
       - name: Lint Cpp source
         run: |
           sudo apt-get -y install clang-format
-          bash lint-c.sh
+          make lint-c
