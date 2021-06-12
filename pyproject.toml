@@ -13,6 +13,9 @@ sphinx-rtd-theme = "^0.5.2"
 
 [tool.poetry.dev-dependencies]
 platformio = "^5.1.1"
+black = "^21.6b0"
+flake8 = "^3.9.2"
+isort = "^5.8.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
