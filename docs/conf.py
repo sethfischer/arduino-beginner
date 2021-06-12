@@ -1,6 +1,7 @@
-import sphinx_rtd_theme
 import subprocess
 import sys
+
+import sphinx_rtd_theme  # noqa: F401
 
 
 def make_latex_logo():
