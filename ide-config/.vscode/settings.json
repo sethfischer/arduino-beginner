@@ -1,0 +1,31 @@
+{
+    "[cpp]": {
+        "editor.defaultFormatter": "xaver.clang-format",
+        "editor.rulers": [
+            79
+        ]
+    },
+    "[html]": {
+        "editor.rulers": [
+            120
+        ]
+    },
+    "[python]": {
+        "editor.rulers": [
+            88
+        ]
+    },
+    "[restructuredtext]": {
+        "editor.wordWrap": "on"
+    },
+    "clang-format.language.java.enable": false,
+    "clang-format.language.javascript.enable": false,
+    "editor.formatOnSave": true,
+    "editor.renderWhitespace": "all",
+    "files.trimFinalNewlines": true,
+    "python.formatting.provider": "black",
+    "python.sortImports.path": "isort",
+    "restructuredtext.confPath": "${workspaceFolder}/docs",
+    "restructuredtext.languageServer.disabled": true,
+    "xmlTools.splitXmlnsOnFormat": false
+}

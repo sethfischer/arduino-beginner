@@ -1,0 +1,10 @@
+{
+    "recommendations": [
+        "dotjoshjohnson.xml",
+        "editorconfig.editorconfig",
+        "lextudio.restructuredtext",
+        "redhat.vscode-yaml",
+        "viktorzetterstrom.non-breaking-space-highlighter",
+        "xaver.clang-format"
+    ]
+}

@@ -1,5 +1,6 @@
 .pio
 .venv
 .vscode
+!/ide-config/.vscode
 /docs/_build
 /docs/latex-logo.pdf
