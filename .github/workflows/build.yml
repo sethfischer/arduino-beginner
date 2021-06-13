@@ -38,4 +38,4 @@ jobs:
 
       - name: Build projects
         run: |
-          poetry run platformio run -d ${{ matrix.projects }}
+          poetry run platformio run -d code/${{ matrix.projects }}
