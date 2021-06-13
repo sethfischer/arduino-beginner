@@ -33,4 +33,7 @@ exclude_patterns = ["_build", ".venv"]
 html_theme = "sphinx_rtd_theme"
 html_static_path = ["_static"]
 
+latex_elements = {
+    "papersize": "a4paper",
+}
 latex_logo = "latex-logo.pdf"
