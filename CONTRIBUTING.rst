@@ -15,7 +15,7 @@ Code style
 :Cpp:
     `clang-format`_
 :Prose:
-    `semantic linefeeds`_
+    `semantic linefeeds`_ (also `sembr.org`_)
 :Commit:
     `Commitizen`_
 
@@ -126,6 +126,7 @@ Breaking changes should start with ``BREAKING CHANGE:`` followed by a space or t
 .. _`Scour`: https://github.com/scour-project/scour
 .. _`clang-format`: https://clang.llvm.org/docs/ClangFormat.html
 .. _`semantic linefeeds`: https://rhodesmill.org/brandon/2012/one-sentence-per-line/
+.. _`sembr.org`: https://sembr.org/
 .. _`Commitizen`: https://github.com/commitizen-tools/commitizen
 .. _`Conventional Commits`: https://www.conventionalcommits.org/
 .. _`closing reference to an issue`: https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-issues/linking-a-pull-request-to-an-issue
