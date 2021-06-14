@@ -136,7 +136,7 @@ Breaking changes should start with ``BREAKING CHANGE:`` followed by a space or t
     :target: https://conventionalcommits.org/
     :alt: Conventional Commits
 .. |commitizen-friendly| image:: https://img.shields.io/badge/commitizen-friendly-brightgreen.svg
-    :target: http://commitizen.github.io/cz-cli/
+    :target: https://github.com/commitizen-tools/commitizen
     :alt: Commitizen friendly
 .. |code-style-black| image:: https://img.shields.io/badge/code%20style-black-000000.svg
     :target: https://github.com/psf/black
