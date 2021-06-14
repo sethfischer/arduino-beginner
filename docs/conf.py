@@ -18,7 +18,9 @@ project = "Beginning Arduino with PlatformIO"
 copyright = "2021, Seth Fischer"
 author = "Seth Fischer"
 
-release = "0.1.0"
+version = "0.1.0"
+release = version
+
 
 extensions = [
     "sphinx_rtd_theme",

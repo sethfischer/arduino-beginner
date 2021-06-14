@@ -23,6 +23,13 @@ commitizen = "^2.17.9"
 requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
 
+[tool.commitizen]
+version = "0.1.0"
+version_files = [
+    "docs/conf.py:version",
+    "pyproject.toml"
+]
+
 [tool.isort]
 profile = "black"
 multi_line_output = 3
