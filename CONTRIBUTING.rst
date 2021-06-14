@@ -132,6 +132,9 @@ Breaking changes should start with ``BREAKING CHANGE:`` followed by a space or t
 .. _`project history`: https://github.com/sethfischer/arduino-pio/commits/main
 
 
+.. |conventional-commits| image:: https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg
+    :target: https://conventionalcommits.org/
+    :alt: Conventional Commits
 .. |commitizen-friendly| image:: https://img.shields.io/badge/commitizen-friendly-brightgreen.svg
     :target: http://commitizen.github.io/cz-cli/
     :alt: Commitizen friendly
