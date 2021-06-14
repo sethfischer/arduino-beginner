@@ -2,7 +2,7 @@
 Contributing
 ============
 
-|commitizen-friendly| |code-style-black|
+|conventional-commits| |commitizen-friendly| |code-style-black|
 
 
 Code style
