@@ -14,7 +14,7 @@ sphinx-rtd-theme = "^1.0.0"
 [tool.poetry.group.dev.dependencies]
 black = "^22.10.0"
 commitizen = "^2.37.1"
-flake8 = "^3.9.2"
+flake8 = "^6.0.0"
 isort = "^5.10.1"
 platformio = "^6.1.5"
 rstcheck = "^6.1.1"
