@@ -8,7 +8,7 @@ jobs:
       fail-fast: false
       matrix:
         os: [ubuntu-latest]
-        python-version: [3.8]
+        python-version: [3.9]
         projects:
           - "project-01"
           - "project-02"
@@ -29,9 +29,8 @@ jobs:
 
       - name: Install Poetry
         run: |
-          curl -fsS -o get-poetry.py https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py
-          python get-poetry.py -y
-          echo "$HOME/.poetry/bin" >> $GITHUB_PATH
+          curl -sSL https://install.python-poetry.org | python3 -
+          poetry --version
 
       - name: Install dependencies
         run: poetry install --no-interaction
