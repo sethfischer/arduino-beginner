@@ -1,8 +1,6 @@
-.PHONY: git-hooks
-git-hooks: .git/hooks/pre-commit .git/hooks/commit-msg
-
-.git/hooks/%: git-hooks/%.sh
-	install --mode=700 $< $@
+.PHONY: install-git-hooks
+install-git-hooks:
+	git config --local core.hooksPath 'git-hooks'
 
 .PHONY: lint
 lint: lint-c lint-python lint-shell lint-svg
