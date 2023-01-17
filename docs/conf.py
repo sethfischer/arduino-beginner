@@ -1,5 +1,6 @@
 import subprocess
 import sys
+from datetime import date
 
 import sphinx_rtd_theme  # noqa: F401
 
@@ -15,8 +16,8 @@ def make_latex_logo():
 make_latex_logo()
 
 project = "Beginning Arduino with PlatformIO"
-copyright = "2021, Seth Fischer"
 author = "Seth Fischer"
+project_copyright = f"{date.today().year}, {author}"
 
 version = "0.1.0"
 release = version
